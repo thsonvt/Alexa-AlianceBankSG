@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Alexa-AlianceBankSG
+  host: Alexa-AlianceBankSG
+  disk_quota: 1024M
+  services:
+  - Alexa-AlianceBankSG-cloudantNoSQLDB
